@@ -1,0 +1,11 @@
+framework module WWMenuView {
+  umbrella header "WWMenuView.h"
+
+  export *
+  module * { export * }
+}
+
+module WWMenuView.Swift {
+    header "WWMenuView-Swift.h"
+    requires objc
+}
